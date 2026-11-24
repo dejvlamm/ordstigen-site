@@ -1,0 +1,20 @@
+/* Ordstigen's two small web pages (support and privacy), in the game's colours. */
+:root { --sky: #2a2560; --ink: #3b2417; --paper: #fff7e2; --edge: #e2c99a; --green: #3c8a4a; --sun: #f7d84a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--sky); color: var(--ink); font: 17px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+header { padding: 32px 16px 20px; text-align: center; color: var(--paper); }
+header h1 { margin: 0; font-size: 34px; letter-spacing: 0.06em; color: var(--sun); text-shadow: 0 3px 0 #1a1640; }
+header .tag { margin: 6px 0 0; opacity: 0.9; }
+header a, footer a { color: var(--paper); }
+main { max-width: 720px; margin: 0 auto; padding: 0 16px 24px; }
+section { background: var(--paper); border: 3px solid var(--edge); border-radius: 10px; padding: 18px 20px; margin: 0 0 18px; }
+h2 { margin: 0 0 10px; font-size: 24px; }
+h3 { margin: 18px 0 6px; font-size: 18px; }
+p, li { margin: 0 0 8px; }
+.big { font-size: 20px; font-weight: 700; color: var(--green); }
+details { border-top: 1px solid var(--edge); padding: 8px 0; }
+summary { cursor: pointer; font-weight: 600; }
+details p { margin: 8px 0 2px; }
+.date { font-size: 14px; opacity: 0.75; }
+footer { text-align: center; padding: 8px 16px 32px; color: var(--paper); }
+a { color: #2a5aa8; }
